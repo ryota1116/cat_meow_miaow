@@ -38,4 +38,3 @@ document.addEventListener('keyup', (event) => {
 		music.play();  // 再生
 	}
 });
-

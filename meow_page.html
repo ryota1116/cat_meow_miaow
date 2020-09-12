@@ -3,11 +3,22 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./css/meow_page.css">
   <title></title>
 </head>
 <body>
-  <!-- テキストボタンの場合 -->
-  <!-- <button onclick="sound()">このテキストを押すと挨拶します！</button> -->
+  <!-- ポップアップ表示 -->
+  <div id="modal_window" style="display: none;">
+    <div id="layer"></div>
+    <!-- ポップアップ -->
+    <div id="popup">
+        <div>ねこちゃん出現</div>
+        <!-- <input type="button" id="close" value="close popup"> -->
+    </div>
+  </div>
+
+  <!-- 猫の画像 -->
   <div id="cat1" style="visibility: hidden;">
     <img src='image/cat1.jpg'>
     <h4>にゃんにゃん</h4>
@@ -25,5 +36,6 @@
     <h4>ぎにゃー</h4>
   </div>
   <script src="./js/cats_meow.js"></script>
+  <script src="./js/modal.js"></script>
 </body>
 </html>
