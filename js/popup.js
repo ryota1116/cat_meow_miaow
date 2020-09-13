@@ -1,4 +1,4 @@
-var KeyUpCount = 0;
+var KeyUpCount = -4;
 var cat = document.querySelectorAll(".cat-element");
 
 document.addEventListener('keyup', logKey);
@@ -7,7 +7,7 @@ function logKey(e) {
   // キーの入力回数をカウント
   KeyUpCount++;
 
-  // 入力回数を表示
+  // 入力回数をブラウザに表示
   var NumberOfKeyUp = document.getElementById('number-of-key-up');
   NumberOfKeyUp.textContent = KeyUpCount;
 
