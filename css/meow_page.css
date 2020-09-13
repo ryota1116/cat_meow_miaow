@@ -1,3 +1,52 @@
+#app {
+  font-size: 1.5vw;
+  max-width: 100%;
+}
+
+/* コンテナ */
+#container {
+  display: grid; /* グリッドレイアウト */
+  grid-template-rows: 50% 50%;
+  grid-template-columns: 50% 50%;
+}
+
+/* メディアサイズ毎のスタイル */
+/* 共通＋スマホ */
+.cat-element {
+  width: 80%; /* 幅は親要素の80% */
+  max-width: 500px; /* 幅は最大500pxまでしか広げない */
+  margin: 0 auto; /* 左右をauto指定にして左右中央揃えに */
+  vertical-align: middle; /* 上下中央に寄せる */
+}
+.cat-element img {
+  width: 50%;
+}
+/* タブレットと横向きスマホ */
+@media (min-width: 481px) {
+  .cat-element {
+    width: 80%;
+    max-width: 500px;
+    margin: 0 auto;
+    vertical-align: middle;
+  }
+  .cat-element img {
+    width: 50%;
+  }
+}
+/* デスクトップと大型タブレット */
+@media (min-width: 769px) {
+  .cat-element {
+    width: 80%;
+    max-width: 500px;
+    margin: 0 auto;
+    vertical-align: middle;
+  }
+  .cat-element img {
+    width: 50%;
+  }
+}
+
+/* ポップアップ */
 #layer {
   position: fixed;
   left: 0px;
