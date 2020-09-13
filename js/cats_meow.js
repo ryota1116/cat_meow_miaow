@@ -10,31 +10,31 @@
 document.addEventListener('keyup', (event) => {
 	if (event.key === 'q') {
 		// cat1表示
-		var img = document.getElementById("cat1");
+		let img = document.getElementById("cat1");
 		img.style.visibility = "visible";
 		// cat-cry1再生
-		var music = new Audio('./cat-cry1.mp3');
+		let music = new Audio('./cat-cry1.mp3');
 		music.play();  // 再生
 	} else if (event.key === 'k') {
 		// cat2表示
-		var img = document.getElementById("cat2");
+		let img = document.getElementById("cat2");
 		img.style.visibility = "visible";
 		// cat-cry2再生
-		var music = new Audio('./cat-cry2.mp3');
+		let music = new Audio('./cat-cry2.mp3');
 		music.play();  // 再生
 	} else if (event.key === 'c') {
 		// cat3表示
-		var img = document.getElementById("cat3");
+		let img = document.getElementById("cat3");
 		img.style.visibility = "visible";
 		// cat-cry3再生
-		var music = new Audio('./cat-cry3.mp3');
+		let music = new Audio('./cat-cry3.mp3');
 		music.play();  // 再生
 	} else if (event.key === 'r') {
 		// cat4表示
-		var img = document.getElementById("cat4");
+		let img = document.getElementById("cat4");
 		img.style.visibility = "visible";
 		// cat-cry4再生
-		var music = new Audio('./cat-cry4.mp3');
+		let music = new Audio('./cat-cry4.mp3');
 		music.play();  // 再生
 	}
 });
