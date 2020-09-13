@@ -26,7 +26,7 @@ function tweetShareLink() {
   const tw_contents = `猫を見つけるまでのミス数は${KeyUpCount}回です！`
   const tw_hashtag = ['cat_meow_miaow', 'にゃんにゃん']
   const url = 'https://ryota1116.github.io/cat_meow_miaow/'
-  const tw_url = `https://twitter.com/intent/tweet?url=${url}&text=${tw_contents}&hashtags=${tw_hashtag}&lang=ja`
+  const tw_url = `https://twitter.com/intent/tweet?hashtags=${tw_hashtag}&url=${url}&text=${tw_contents}&lang=ja`
 
   const target = document.getElementById("tweet-share")
   target.href = tw_url
