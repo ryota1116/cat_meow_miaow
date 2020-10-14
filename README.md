@@ -2,7 +2,7 @@
 https://ryota1116.github.io/cat_meow_miaow/
 
 ## （9/7～9/13）１週間でWebサービスを作るイベント - お題「2」 / web1week
-[投稿ページ](https://crieit.net/boards/web1week-202009/web-Cat-Meow-Miaow)
+https://crieit.net/boards/web1week-202009/web-Cat-Meow-Miaow
 
 ## 資料
 - [onclickでsoundメソッド実行](https://syncer.jp/html5-javascript-hello-button)
